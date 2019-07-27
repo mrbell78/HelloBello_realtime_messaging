@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:src="@drawable/profileimg"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/listprofileimg"
+            app:civ_border_color="#DDDDDD"
+            app:civ_border_width="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Jakir hassan"
+                android:textSize="20sp"
+                android:id="@+id/tvName"
+                android:layout_marginLeft="18dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="10dp"
+                >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="Confirm request"
+                    android:textAllCaps="false"
+                    android:background="@drawable/backgroundforreqbutton"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/confirmrequest"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:text="Cancel request"
+                    android:textAllCaps="false"
+                    android:background="@drawable/backgroundforfrndreaa2"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/cancelrequest"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

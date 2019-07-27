@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="4">
+
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="90dp"
+               android:src="@drawable/profileimg"
+               android:layout_marginLeft="10dp"
+               android:scaleType="centerCrop"
+               android:id="@+id/listprofileimg"
+               app:civ_border_color="#DDDDDD"
+               app:civ_border_width="2dp"
+               />
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_weight="3"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:orientation="vertical"
+               android:layout_marginTop="5dp"
+               >
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+
+                     android:text="Nurhossen Rubel"
+                     android:textSize="18sp"
+                     android:textStyle="bold"
+                     android:padding="5dp"
+                     android:id="@+id/listName"
+                     />
+                 <ImageView
+                     android:layout_width="15dp"
+                     android:layout_height="15dp"
+                     android:layout_marginLeft="5dp"
+                     android:layout_marginTop="12dp"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/offline"
+                     android:id="@+id/onlineindicator"
+                     android:visibility="invisible"
+
+                     />
+
+             </LinearLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="27dp"
+                   android:textStyle="italic"
+                   android:autoSizeMaxTextSize="15sp"
+                   android:autoSizeMinTextSize="12sp"
+                   android:autoSizeTextType="uniform"
+                   android:text="hi there i am using hellobello"
+                   android:padding="3dp"
+                   android:layout_marginTop="5dp"
+                   android:id="@+id/tvStatus"
+                   />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+</RelativeLayout>

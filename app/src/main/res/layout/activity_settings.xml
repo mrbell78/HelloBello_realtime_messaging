@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settingsppimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profileimg"
+        app:civ_border_width="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:civ_border_color="@color/colorPrimary"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsppimg"
+        android:textAllCaps="false"
+        android:text="Rasel Shikdar"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/settingnametitletv"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:layout_below="@+id/settingnametitletv"
+        android:textAllCaps="false"
+        android:text="Hey there i am using HelloBello"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/settingsStatus"
+        />
+
+   <android.support.v7.widget.CardView
+       android:layout_width="250dp"
+       android:layout_height="40dp"
+       app:cardCornerRadius="10dp"
+       android:layout_marginLeft="-10dp"
+       android:layout_below="@+id/settingsStatus"
+       android:layout_marginTop="150dp"
+       app:cardBackgroundColor="#6d6d6d"
+       android:clickable="true"
+       android:focusable="true"
+       android:foreground="?android:selectableItemBackground"
+       android:id="@+id/lefcardsettings"
+
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="6dp"
+           android:layout_marginLeft="80dp"
+           android:background="#6d6d6d"
+           android:textSize="20sp"
+           android:textColor="@android:color/white"
+           android:text="Change Image"
+           android:textAllCaps="false"
+           android:id="@+id/settings_changeimgtv"
+           />
+
+   </android.support.v7.widget.CardView>
+   <android.support.v7.widget.CardView
+       android:layout_width="250dp"
+       android:layout_height="40dp"
+       app:cardCornerRadius="10dp"
+       android:layout_marginLeft="-10dp"
+       android:layout_below="@+id/lefcardsettings"
+       android:layout_marginTop="15dp"
+       app:cardBackgroundColor="@android:color/darker_gray"
+       android:clickable="true"
+       android:focusable="true"
+       android:foreground="?android:selectableItemBackground"
+       android:id="@+id/rightcardSettings"
+
+
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="80dp"
+           android:layout_marginTop="6dp"
+           android:background="@android:color/darker_gray"
+           android:textSize="20sp"
+           android:textColor="@android:color/white"
+           android:text="Change Status"
+           android:textAllCaps="false"
+           android:id="@+id/settings_changeStatustv"
+           />
+
+   </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688323524571",
+    "firebase_url": "https://normalsignup-24f2f.firebaseio.com",
+    "project_id": "normalsignup-24f2f",
+    "storage_bucket": "normalsignup-24f2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688323524571:android:076261b29ebf6ba2",
+        "android_client_info": {
+          "package_name": "com.mrbell.latifchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688323524571-plfodtsone4j1adhmpflpq3qqid04vm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrbell.latifchatapp",
+            "certificate_hash": "bc3850cef859bc7107fe8fd632b1d348af59b003"
+          }
+        },
+        {
+          "client_id": "688323524571-anm5ageuve8dk2uijm83er9793k1krep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB912_04MqyrwH_XWxy882k9lPZmhrAH0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688323524571-anm5ageuve8dk2uijm83er9793k1krep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
